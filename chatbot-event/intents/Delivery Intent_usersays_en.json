@@ -1,0 +1,166 @@
+[
+  {
+    "id": "9d54cf0e-f910-4238-b775-b60365e16ad8",
+    "data": [
+      {
+        "text": "Is delivery available in [",
+        "userDefined": false
+      },
+      {
+        "text": "Pune",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8183eea-0ce1-45c1-b60c-792a88c55eb0",
+    "data": [
+      {
+        "text": "My parcel is going to [",
+        "userDefined": false
+      },
+      {
+        "text": "Kolkata",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43fbb28d-c229-4653-935f-ee5db63cff5b",
+    "data": [
+      {
+        "text": "Check delivery status for [",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6d136be-77c6-4a93-9a77-e005e60da63f",
+    "data": [
+      {
+        "text": "When will my order arrive in [",
+        "userDefined": false
+      },
+      {
+        "text": "Hyderabad",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "408df942-f449-4173-92fd-6596daf922f2",
+    "data": [
+      {
+        "text": "Has my package reached [",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b53556e-3f76-44e2-b982-60c4ab67bd29",
+    "data": [
+      {
+        "text": "I want delivery details for [",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": "]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59c3090c-aab1-4235-8fcc-2369986f744b",
+    "data": [
+      {
+        "text": "Track my delivery to [Delhi]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6417d2d-f4b9-44ae-8437-da6c99d27e6a",
+    "data": [
+      {
+        "text": "Where is my order?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

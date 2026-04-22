@@ -1,0 +1,67 @@
+# Simplified Cloud Build configuration - builds and deploys without external dependencies
+steps:
+  # Build backend image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'build',
+      '-t', 'gcr.io/corded-evening-471908-m2/chatbot-backend:$BUILD_ID',
+      '-t', 'gcr.io/corded-evening-471908-m2/chatbot-backend:latest',
+      '-f', 'backend/Dockerfile',
+      '.'
+    ]
+
+  # Build frontend image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'build',
+      '-t', 'gcr.io/corded-evening-471908-m2/chatbot-frontend:$BUILD_ID',
+      '-t', 'gcr.io/corded-evening-471908-m2/chatbot-frontend:latest',
+      '-f', 'frontend/Dockerfile',
+      '.'
+    ]
+
+  # Push backend image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/corded-evening-471908-m2/chatbot-backend:$BUILD_ID']
+
+  # Push frontend image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/corded-evening-471908-m2/chatbot-frontend:$BUILD_ID']
+
+  # Deploy backend to Cloud Run (minimal config)
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args: [
+      'run', 'deploy', 'chatbot-backend',
+      '--image', 'gcr.io/corded-evening-471908-m2/chatbot-backend:$BUILD_ID',
+      '--region', 'us-central1',
+      '--platform', 'managed',
+      '--allow-unauthenticated',
+      '--port', '8000',
+      '--memory', '1Gi',
+      '--cpu', '1',
+      '--timeout', '3600',
+      '--set-env-vars', 'MONGODB_URL=mongodb://localhost:27017,DB_NAME=chatbot_db'
+    ]
+
+  # Deploy frontend to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args: [
+      'run', 'deploy', 'chatbot-frontend',
+      '--image', 'gcr.io/corded-evening-471908-m2/chatbot-frontend:$BUILD_ID',
+      '--region', 'us-central1',
+      '--platform', 'managed',
+      '--allow-unauthenticated',
+      '--port', '5000',
+      '--memory', '512Mi',
+      '--cpu', '1',
+      '--timeout', '300'
+    ]
+
+# Store images in Container Registry
+images:
+  - 'gcr.io/corded-evening-471908-m2/chatbot-backend:$BUILD_ID'
+  - 'gcr.io/corded-evening-471908-m2/chatbot-frontend:$BUILD_ID'
+
+timeout: '1200s'

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "faf78f0b-0171-42e2-9d03-7f68baa98b40",
+    "data": [
+      {
+        "text": "Help me with billing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54d6790c-000e-4e98-9084-bbe80553eed2",
+    "data": [
+      {
+        "text": "Connect me to an agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "946e31ce-998c-4870-85f6-c76aba0c6e88",
+    "data": [
+      {
+        "text": "I want to talk to customer support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

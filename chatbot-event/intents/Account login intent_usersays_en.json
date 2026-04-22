@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c1a8284d-cd03-49af-8339-a6bbe5e575cf",
+    "data": [
+      {
+        "text": "Help me reset my login",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "751a3dfa-86d9-4e7b-bb04-fa7ce64f6f03",
+    "data": [
+      {
+        "text": "Forgot my password",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3149d25b-08c7-41dc-a4bc-d5a6da93f7d3",
+    "data": [
+      {
+        "text": "I can\u0027t log into my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

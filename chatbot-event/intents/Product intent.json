@@ -1,0 +1,54 @@
+{
+  "id": "a3b9d688-64d4-4948-9189-2316e7810e83",
+  "name": "Product intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9849acd7-2b84-44be-a940-e2cd1c3b3b67",
+          "name": "product",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The price of $product is ₹15,000.",
+            "Currently, $product costs ₹12,499.",
+            "The price for $product is ₹20,000. Would you like to know available discounts?",
+            "Sure! Which product would you like the pricing for?",
+            "Can you please tell me the product name?",
+            "We have more number of best quality products (eg: Phones, Laptop, Airpods, Ipads)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "24d27f7b-1d15-43db-87bb-10aaa6aea601",
+    "data": [
+      {
+        "text": "I want to raise a complaint about [Product Warranty]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6daaf78-ea43-4e07-a8ac-1839fd19dace",
+    "data": [
+      {
+        "text": "Can you help me fix [Slow WiFi]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e44cd8c8-6387-4d96-adbb-db6090ab2457",
+    "data": [
+      {
+        "text": "Need customer support for [Delivery Delay]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6839cec-2815-4be9-8457-10f211d6f0c1",
+    "data": [
+      {
+        "text": "I have an issue regarding [Payment Failure]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b722bdce-a327-4eba-9155-566c123f4221",
+    "data": [
+      {
+        "text": "Please assist me with [Account Login]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35364f7f-54b6-4eb2-be27-987f1963f26b",
+    "data": [
+      {
+        "text": "I\u0027m facing a problem with [Mobile Service]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36a5ac74-22e5-49bf-97a1-a49a2f60e33f",
+    "data": [
+      {
+        "text": "Can you support me with [Billing Issue]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0c96588-6264-426b-9b68-5e4ed4e8215a",
+    "data": [
+      {
+        "text": "I need help with [Internet Connection]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

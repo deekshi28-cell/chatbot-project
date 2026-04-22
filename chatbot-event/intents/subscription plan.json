@@ -1,0 +1,70 @@
+{
+  "id": "77436561-7593-437e-a1a3-cadf6400aec6",
+  "name": "subscription plan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6b7de0bf-7d7f-427b-87b0-f7f4bc2eb226",
+          "name": "plan_type",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "basic, pro, premium, gold",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3282574b-dbd0-4d2d-b75e-89ac7397e600",
+          "name": "duration",
+          "required": false,
+          "dataType": "@sys.duration",
+          "value": "1 month, 1 year",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The $plan_type plan costs ₹499 per month. Would you like details about features?",
+            "Currently, the $plan_type subscription includes unlimited access and priority support.",
+            "Here’s what you get with the $plan_type plan: …",
+            "We offer Basic, Pro, and Premium plans. Which one would you like to know about?",
+            "Our subscription options include monthly and yearly plans. Do you want me to explain them?",
+            "The $plan_type plan for $duration is available at ₹499.",
+            "We have a special discount if you choose the yearly plan."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

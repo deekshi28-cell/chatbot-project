@@ -1,0 +1,70 @@
+{
+  "id": "c1ab2f66-5c6a-4ddc-b260-c16068a42ceb",
+  "name": "Delivery Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "083ac516-e6a8-45d3-8d4a-744dd96c1e68",
+          "name": "city",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "value": "$city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "02a568d6-56fa-4ef2-a04e-0c22905dbbc4",
+          "name": "order_id",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "12345, AB678",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your delivery to $city is on the way 🚚. Expected arrival: 2–3 days.",
+            "We have scheduled your delivery for $city. You’ll get an update soon.",
+            "Yes, delivery is available in $city. Would you like me to check your order status?",
+            "Sure, could you tell me the city for delivery?",
+            "Please provide the city name so I can check the delivery status.",
+            "Order $order_id is currently being shipped to $city and will arrive in 2 days.",
+            "I found order $order_id. It’s on its way to $city."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "eb1c84fc-432c-4384-9486-fd2061ccdbbc",
+    "data": [
+      {
+        "text": "Tell me about your product?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8abb7735-07bb-4f3c-b0e4-20f7843be6a4",
+    "data": [
+      {
+        "text": "Price details for [Smartwatch] please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "419562fb-6978-48da-9bd2-722420a571bc",
+    "data": [
+      {
+        "text": "How much is [Camera]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ae199ff-f564-44f5-a7d3-bdfe4d343c9c",
+    "data": [
+      {
+        "text": "Do you have price info for [Shoes]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53a9c294-d60d-4e71-870d-7f28f54db40c",
+    "data": [
+      {
+        "text": "What\u0027s the rate for [Tablet]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "caa2ce1f-8633-407e-9844-8543c71ca301",
+    "data": [
+      {
+        "text": "Can you give me the cost of [Headphones]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4752fdc2-dbed-42dc-acec-d8f4b58c3e9b",
+    "data": [
+      {
+        "text": "Tell me the pricing details of [Mobile Phone]",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d99a0be-c097-4aec-9533-429e7b1bc04f",
+    "data": [
+      {
+        "text": "What is the price of [Laptop]?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b07ecaf-8963-4fae-8422-54e07e4e831b",
+    "data": [
+      {
+        "text": "How much does this product cost?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

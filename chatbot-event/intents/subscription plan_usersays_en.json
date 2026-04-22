@@ -1,0 +1,93 @@
+[
+  {
+    "id": "85760003-2b94-40bf-b35a-957e9f197170",
+    "data": [
+      {
+        "text": "How much is the gold plan?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c4b72a9-fdb6-4d17-9064-de11be31a9ad",
+    "data": [
+      {
+        "text": "I want to know about the free trial plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "992a1971-d208-4357-a31a-1b9f3703068e",
+    "data": [
+      {
+        "text": "Can you explain the premium plan?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5f60dea-bb48-4083-99f8-d088b8ba1c2c",
+    "data": [
+      {
+        "text": "What are the available packages?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6cd998f-9250-4cc9-9af8-8ac52f57d5f6",
+    "data": [
+      {
+        "text": "Tell me about your pricing plans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "156c5923-1b4f-4927-beca-97863a338963",
+    "data": [
+      {
+        "text": "Do you have monthly and yearly plans?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7848050b-b534-410e-9a40-5f7164b1d0ba",
+    "data": [
+      {
+        "text": "What subscription plans do you offer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

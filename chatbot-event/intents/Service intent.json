@@ -1,0 +1,82 @@
+{
+  "id": "ef4a57e7-ad7a-4247-8dd7-40bebbaec0b3",
+  "name": "Service intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d7c7c3cc-863a-40f8-bef6-bdfc4395ed54",
+          "name": "service_type",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "Internet, Billing",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d6d14d94-9ed8-42ff-8bc9-9debe1a115c6",
+          "name": "urgency_level",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "urgent, high, low",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b7fe3aa3-e04f-4942-b600-80f2789b8739",
+          "name": "customer_name",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "John, Riya",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks for reaching out! I see you need support with $service_type. Will get back to you soon on resolving your problem. Tell me your Subscription Plan.",
+            "I understand you’re facing an issue with $service_type. Let me check possible solutions for you.",
+            "Support for $service_type has been noted. Will get back to you soon on resolving your problem. Tell me your Subscription Plan.",
+            "Sure, I can help you. Could you tell me what service you need support with?",
+            "Please specify the issue, like billing, internet, login, etc."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
